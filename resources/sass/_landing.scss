@@ -1,0 +1,24 @@
+#landing {
+    @include flexCenter();
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.400), rgb(255, 255, 255)), url('../img/landing_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Cabin', sans-serif;
+    h1 {
+        font-size: 52px;
+        font-weight: $fontNormal;
+    }
+    p {
+        font-size: 19px;
+        font-weight: $fontNormal;
+    }
+    .btn-twitter {
+        color: $colorWhite;
+        background-color: $colorTwitter;
+    }
+}

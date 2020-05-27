@@ -1,0 +1,45 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+//Color Base
+$colorWhite: #FFFFFF;
+$colorBlack: #000000;
+$colorBabyPowder: #FDFFFC;
+$colorIsabelline: #EAEAEA;
+$colorSeaSerpent: #55CDE8;
+$colorPasificBlue: #1DB4C9;
+$colorTwitter: #1DA1F2;
+$colorRaisinBlack: #272727;
+$colorPinkRaspberry: #8F073C;
+// Font Weight
+$fontNormal: 400;
+$fontBold: 700;
+// Full Screen
+@mixin flexCenter {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+// Button Custom
+.btn {
+    font-family: 'Cabin', sans-serif;
+    font-weight: $fontNormal;
+}

@@ -1,0 +1,19 @@
+#tweets {
+    font-family: "Cabin", sans-serif;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.400), rgba(85, 205, 232, 0.34));
+    .section_title {
+        font-weight: 100;
+        font-weight: $fontBold;
+    }
+    .card:hover {
+        cursor: pointer;
+    }
+    .card-title {
+        font-size: 21px;
+        font-weight: $fontBold;
+    }
+    .card-text {
+        font-size: 17px;
+        font-weight: $fontNormal;
+    }
+}
