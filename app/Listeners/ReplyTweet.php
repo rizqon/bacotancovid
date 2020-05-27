@@ -8,8 +8,6 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 
 class ReplyTweet implements ShouldQueue
 {   
-    public $queue = 'ReplyStream';
-
     public $delay = 60;
 
     /**
