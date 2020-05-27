@@ -15,7 +15,7 @@ class CreatePostsTable extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('tweet_id')->unique();
+            $table->bigInteger('tweet_id');
             $table->text('text');
             $table->string('username');
             $table->string('avatar');
