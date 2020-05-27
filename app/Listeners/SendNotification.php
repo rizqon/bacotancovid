@@ -10,6 +10,8 @@ use NotificationChannels\Telegram\TelegramChannel;
 
 class SendNotification implements ShouldQueue
 {
+    public $queue = 'SendNotification';
+    
     /**
      * Handle the event.
      *

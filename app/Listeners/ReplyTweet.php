@@ -10,6 +10,8 @@ class ReplyTweet implements ShouldQueue
 {   
     public $delay = 60;
 
+    public $queue = 'ReplyTweet';
+
     /**
      * Handle the event.
      *
