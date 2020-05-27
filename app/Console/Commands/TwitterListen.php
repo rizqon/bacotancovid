@@ -36,7 +36,7 @@ class TwitterListen extends Command
             $config['access_token_secret'],
             $config['consumer_key'],
             $config['consumer_secret']
-        )->whenHears(config('site.twitter_username'), function(array $tweet) {
+        )->whenHears('@bacotancovid', function(array $tweet) {
             $this->info("Triggering Prosess");
             ProcessTweet::dispatch($tweet);
         })->startListening();
