@@ -32,7 +32,7 @@
                             <p>COVID-19 Telah mengubah hidup kita, mari kita menjaga sesama dengan menerapkan <em>physical distancing</em> teman dan keluarga. Kami mengumpulkan banyak Harapan. Keinginan dan Aspirasi dari kalian semua selama masa pandemi
                                 ini. Apa yang akan kamu lakukan setelah wabah ini selesai?
                             </p>
-                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Hello%20world" class="btn btn-lg btn-twitter shadow">Mention Kami <i class="fa fab fa-twitter"></i></a>
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ urlencode("@bacotancovid setelah covid selesai aku ingin ...") }}" class="btn btn-lg btn-twitter shadow">Mention Kami <i class="fa fab fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>
