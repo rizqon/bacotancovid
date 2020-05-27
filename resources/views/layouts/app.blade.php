@@ -53,7 +53,7 @@
                 <p> &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script> Setelah Covid Berlalu.</p>
+                    </script>{{ config('app.name') }}</p>
             </div>
         </footer>
 
