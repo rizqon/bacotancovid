@@ -14,8 +14,4 @@ class Post extends Model
         'avatar',
         'time'
     ];
-
-    protected $dispatchesEvents = [
-        'created' => PostCreated::class,
-    ];
 }

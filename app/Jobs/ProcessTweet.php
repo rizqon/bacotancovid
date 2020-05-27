@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Events\PostCreated;
 use App\Post;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
@@ -43,5 +44,7 @@ class ProcessTweet implements ShouldQueue
             'avatar' => $this->tweet['user']['profile_image_url'],
             'time' => $this->tweet['timestamp_ms']
         ]);
+
+        event(new PostCreated($posts));
     }
 }
