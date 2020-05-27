@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Events\PostCreated;
 use App\Listeners\ReplyTweet;
+use App\Notifications\PostCreatedNotification;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -21,7 +22,8 @@ class EventServiceProvider extends ServiceProvider
             SendEmailVerificationNotification::class,
         ],
         PostCreated::class => [
-            ReplyTweet::class
+            ReplyTweet::class,
+            PostCreatedNotification::class
         ]
     ];
 
