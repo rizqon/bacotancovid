@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="strict-origin" />
-    <title>COVID-19</title>
+    <title>Bacotan Netizen Covid 19</title>
+    <meta name="description" content="COVID-19 Telah mengubah hidup kita, mari kita menjaga sesama dengan menerapkan physical distancing teman dan keluarga. Kami mengumpulkan banyak Harapan. Keinginan dan Aspirasi dari kalian semua selama masa pandemi ini. Apa yang akan kamu lakukan setelah wabah ini selesai?">
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <livewire:styles>
