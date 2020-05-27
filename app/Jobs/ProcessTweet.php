@@ -17,8 +17,6 @@ class ProcessTweet implements ShouldQueue
 
     protected $tweet;
 
-    public $queue = 'ProcessTweet';
-
     /**
      * Create a new job instance.
      *
