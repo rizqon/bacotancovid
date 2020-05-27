@@ -38,7 +38,7 @@ class TwitterListen extends Command
             $config['consumer_secret']
         )->whenHears('@bacotancovid', function(array $tweet) {
             $this->info("Triggering Prosess");
-            ProcessTweet::dispatch($tweet);
+            ProcessTweet::dispatch($tweet)->onQueue('PostStream');
         })->startListening();
     }
 }
